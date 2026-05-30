@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Git
+Comment=Visual Git client - branches, commits, diffs, conflicts
+Exec=singularity-git %f
+Icon=dev.sinty.git
+Terminal=false
+Type=Application
+Categories=Development;RevisionControl;
+StartupNotify=true
+StartupWMClass=dev.sinty.git
