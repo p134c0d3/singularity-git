@@ -49,3 +49,7 @@ executable('singularity-git',
 install_data('data/dev.sinty.git.desktop',
   install_dir: get_option('datadir') / 'applications'
 )
+
+install_data('data/icons/dev.sinty.git.svg',
+  install_dir: get_option('datadir') / 'icons' / 'hicolor' / 'scalable' / 'apps'
+)
